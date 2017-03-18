@@ -315,6 +315,7 @@ class FieldTest extends \PHPUnit_Framework_TestCase
 	 */
 	public function testSetForm()
 	{
+var_dump('this is an error test');
 		$form1 = new Form('form1');
 		$form2 = new Form('form2');
 
